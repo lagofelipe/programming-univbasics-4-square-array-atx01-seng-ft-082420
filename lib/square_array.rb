@@ -4,7 +4,7 @@ counter = 0
   new_array = []
   while counter <  array.length do
 
-new_array.push(array[counter]** array[counter])
+new_array.push(array[counter].sqrt())
 counter += 1
   end
   return  new_array
